@@ -1,0 +1,129 @@
+/* bg color */
+    html {
+        background-color: rgb(252, 252, 252);
+    }
+/* */
+
+/* container */
+    /* logo */
+        #lg- {
+            user-select: none;
+            
+            position: absolute;
+            width: 25rem;
+
+            top: -12rem;
+        }
+    /* */
+
+    #container {
+        user-select: none;
+
+        position: relative;
+        top: 10rem;
+
+        width: 5rem;
+        left: 45rem;
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        gap: 2rem;
+    }
+
+    /* buttons */
+        button {
+            border: 0;
+            border-radius: 5px;
+
+            width: 25rem;
+            height: 6rem;
+
+            box-shadow: 0px 2px 5px #00000029;
+
+            /* txts */
+                p {
+                    font-size: 24px;
+                    font-weight: bolder;
+                    text-shadow: 0px 2px 0px #00000029;
+
+                    color: white;
+                }
+            /* */
+
+            /* hover */
+                transition: box-shadow 0.12s ease;
+                
+                &:hover {
+                    box-shadow: 0px 2px 5px #00000057;
+                }
+            /* */
+        }
+
+        /* whats btn */
+            #btn-w-rdrct-- {
+                background-color: #25d366;
+
+                /* hover */
+                    transition: background-color 0.12s ease;
+
+                    &:hover {
+                        cursor: pointer;
+
+                        background-color: #22c15d;
+                    }
+                /* */
+            }
+        /* */
+
+        /* insta btn */
+            #btn-i-rdrct-- {
+                background-image: linear-gradient(to right, #5254d3, #ff00b2, #f8c72f);
+
+                /* hover */
+                    transition: background-image 0.12s ease;
+                    
+                    &:hover {
+                        cursor: pointer;
+
+                        background-image: linear-gradient(to right, #494bb9, #c8008c, #bf9823);
+                    }
+                /* */
+            }
+        /* */
+
+        /* face btn */
+            #btn-f-rdrct-- {
+                background-color: #0866FF;
+
+                /* hover */
+                    transition: background-color 0.12s ease;
+
+                    &:hover {
+                        cursor: pointer;
+
+                        background-color: #095adc;
+                    }
+                /* */
+            }
+        /* */
+
+        /* yt btn */
+            #btn-yt-rdrct-- {
+                background-color: #FF0000;
+
+                /* hover */
+                    transition: background-color 0.12s ease;
+                    &:hover {
+                        cursor: pointer;
+
+                        background-color: #dc0000;
+                    }
+                /* */
+            }
+        /* */
+    /* */
+/* */
