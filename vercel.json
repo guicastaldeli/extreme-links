@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/style/(.*).css",
-            "destination": "/style/style.css"
+            "destination": "/style/$1.css"
         }
     ]
 }
