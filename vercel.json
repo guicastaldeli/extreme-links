@@ -5,7 +5,7 @@
             "destination": "/style/$1.css"
         },
         {
-             "source": "/main/(.*)",
+             "source": "/main/(.*).html",
             "destination": "/main/index.html"
         }
     ]
