@@ -1,8 +1,8 @@
 {
     "rewrites": [
         {
-            "source": "style/(.*).css",
-            "destination": "style/$1.css"
+            "source": "C:/Users/casta/OneDrive/Desktop/vscode/links/style/(.*).css",
+            "destination": "C:/Users/casta/OneDrive/Desktop/vscode/links/style/$1.css"
         }
     ]
 }
