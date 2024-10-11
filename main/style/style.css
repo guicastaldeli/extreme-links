@@ -10,9 +10,9 @@ html {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-  position: absolute;
+  position: fixed;
   width: 25rem;
-  top: -12rem;
+  top: 0rem;
 }
 
 /* */
@@ -20,10 +20,10 @@ html {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-  position: relative;
-  top: 10rem;
+  position: fixed;
+  inset: 0;
+  margin: auto;
   width: 5rem;
-  left: 45rem;
   display: flex;
   flex-direction: column;
   justify-content: center;

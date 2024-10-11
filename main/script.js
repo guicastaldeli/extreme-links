@@ -1,6 +1,6 @@
 //Appends...
     //Logo...
-        const logo = $('<img id="lg-" src="../img/extremeNv.png"></img>');
+        const logo = $('<img id="lg-" src="./img/extremeNv.png"></img>');
 
         $('#container').append(logo);
     //
