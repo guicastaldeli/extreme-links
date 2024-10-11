@@ -5,8 +5,12 @@
             "destination": "/style/$1.css"
         },
         {
-             "source": "/main/(.*).html",
-            "destination": "/main/index.html"
+            "source": "/main/(.*).html",
+            "destination": "/main/$1.html"
+        },
+        {
+            "source": "/main/(.*).js",
+            "destination": "/main/$1.js"
         }
     ]
 }
