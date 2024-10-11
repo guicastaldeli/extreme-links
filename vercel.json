@@ -1,8 +1,8 @@
 {
     "rewrites": [
         {
-            "source": "/style/(.*).css",
-            "destination": "/style/$1.css"
+            "source": "style/(.*).css",
+            "destination": "style/$1.css"
         }
     ]
 }
